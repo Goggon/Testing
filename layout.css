@@ -19,6 +19,7 @@ body{
 	border-bottom:0;
 }
 
+
 .sidepanels{
 	background-color:#f1e4e0;
 	color:black;
@@ -26,6 +27,32 @@ body{
 	margin-right:70%;
 	border-top:0;
 	margin-top:0;
-	padding-bottom:100%;
+	padding: 14px 16px 100% 0px;
 	line-height:1.6em;
+	width:190px;
 }
+
+.sidepanels a{
+    background-color: pink;
+    color:black;
+	padding: 14px 100px 14px 0px;
+	margin:0;
+	width: 190px;
+	
+	overflow:hidden; 
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+	
+} 
+
+
+.sidepanels a:hover {
+    /*background-color: gray;
+    color:white;
+	padding: 14px 16px 14px 0px;
+	border:0;
+	line-height:1.6em;
+	margin:0; */
+}
+
