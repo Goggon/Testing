@@ -1,0 +1,19 @@
+/* CSS Document */
+body{
+	background-color:lightgrey;
+	color:black;
+
+	font: normal 16px Comic Sans MS, Arial;
+	margin:0;
+}
+
+.header{
+	background-color:red;
+	color:white;
+	margin:auto;
+	margin-top:0;
+	width:100%;
+	font-size: 30px;
+	padding-top:10px;
+	padding-left:20%;
+}
