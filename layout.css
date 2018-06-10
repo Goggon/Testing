@@ -32,27 +32,41 @@ body{
 	width:190px;
 }
 
-.sidepanels a{
-    background-color: pink;
-    color:black;
-	padding: 14px 100px 14px 0px;
+.sidepanels a{	
+	display: inline-block;
+	width:190px;
+	
+	background-color:pink;
+	color:black;
 	margin:0;
-	width: 190px;
+	padding: 14px 16px 14px 0px;
+	line-height:1.6em;
+	border:0;
+	margin-bottom:-1em;
+	
 	
 	overflow:hidden; 
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	
-	
+}
 } 
 
 
 .sidepanels a:hover {
-    /*background-color: gray;
-    color:white;
+    display: inline-block;
+	width:190px;
+	
+	background-color:gray;
+	color:white;
+	margin:0;
 	padding: 14px 16px 14px 0px;
-	border:0;
 	line-height:1.6em;
-	margin:0; */
+	border:0;
+	margin-bottom:-1em;
+	
+	
+	overflow:hidden; 
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
